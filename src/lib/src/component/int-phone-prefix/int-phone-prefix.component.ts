@@ -44,10 +44,10 @@ export class IntPhonePrefixComponent implements OnInit, ControlValueAccessor {
 
   private countries: Country[];
   private locales: CountryCode;
-  private selectedCountry: Country;
+  selectedCountry: Country;
   private countryFilter: string;
-  private showDropdown = false;
-  private phoneInput: string = '';
+  showDropdown = false;
+  phoneInput: string = '';
 
   private value = '';
 
